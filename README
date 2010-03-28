@@ -1,0 +1,22 @@
+== Getting Started with Coffee Script
+  
+This is a demonstration app inspired by Dr Nic's overview (see link below). It is a 
+plain simple Rails 2.3.x project, without any database dependencies to showcase
+CoffeeScript using jQuery UI elements in a single page.
+
+== Links
+
+Read Dr Nic's overview on CoffeeScript and BistroCar for Rails projects:
+  http://drnicwilliams.com/2010/03/15/using-coffeescript-in-rails-and-even-on-heroku/
+  
+Read CoffeeScript Reference Guide:
+  http://jashkenas.github.com/coffee-script/
+  
+Install a Textmate Bundle for CoffeeScript:
+  http://github.com/jashkenas/coffee-script-tmbundle
+  
+Read more about jQuery and jQuery UI:
+  http://jqueryui.com/docs/Getting_Started
+  
+Use Google's CDN to point to jQuery:
+  http://code.google.com/apis/ajaxlibs/documentation/#jquery

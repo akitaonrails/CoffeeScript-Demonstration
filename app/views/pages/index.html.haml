@@ -1,0 +1,53 @@
+%h1 Coffee Script Demonstration
+
+- form_for :page, :url => { :action => "index" }, :html => { :id => "demo_form" } do |f|
+  %p
+    %label{:for => "page_date"} Date
+    = f.text_field :date
+  %p
+    %label{:for => "page_tags"} Tags
+    = f.text_field :tags
+  %p
+    %label{:for => "page_slider"} Slider
+    = f.text_field :slider
+  %p
+    = f.submit "Submit"
+    
+#dialog_box{:title => "Dialog Demo"}
+  %p This is a sample dialog box.
+  
+#slider
+  
+%div
+  %button.button{:id => "progress_reset"} Reset
+  %button.button{:id => "progress_start"} Start
+  #progress_bar
+
+%p
+
+#tabs
+  %ul
+    %li
+      %a{:href => "#tabs-1"} Tab 1
+    %li
+      %a{:href => "#tabs-2"} Tab 2
+    %li
+      %a{:href => "#tabs-3"} Tab 3
+  #tabs-1
+    %p 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  #tabs-2
+    %p 2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  #tabs-3
+    %p 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
+%p
+  
+#accordion
+  %h3 
+    %a{:href => "#"} Section 1
+  %div
+    %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  %h3 
+    %a{:href => "#"} Section 2
+  %div
+    %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
